@@ -202,9 +202,10 @@ h2 {
   color: var(--clr-nutmeg);
 }
 
-h3 {
+h3, .h3 {
   color: var(--clr-dark-rasberry);
   font-family: var(--ff-primary);
+  font-size: 1.17em;
 }
 
 .container {
@@ -288,7 +289,7 @@ h3 {
   background-color: var(--clr-rose-white);
   position: relative;
 }
-.recipe-card .recipe-card__prep-time h3 {
+.recipe-card .recipe-card__prep-time h3, .recipe-card .recipe-card__prep-time .h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
